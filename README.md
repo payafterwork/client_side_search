@@ -1,6 +1,4 @@
-# Searchable index page
-
-Example of using [Vue](https://vuejs.org/) and [Lunr](https://lunrjs.com) to create a searchable list.
+# Nathan's project
 
 ## Installation
 
@@ -16,5 +14,3 @@ $ npm run server
 ```
 
 ## Demo
-
-https://spkerkela.github.io/client_side_search/
