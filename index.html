@@ -14,9 +14,21 @@
         <h1>Search Test</h1>
         <input v-on:change="search" v-model="searchtext" type="text" class="search" id="search" placeholder="Search..">
         <div class="cool" v-for="document in documents">
-            <h3>{{document.name}}</h3>
-            <p>{{document.text}}</p>
-            <a :href="document.site">{{document.site}}</a>
+            <b>{{document.name}}</b>
+            <br>
+            Primary Use: {{ document.text }}
+            <br>
+            Speed: {{ document.speed }}
+            <br>
+            Glide: {{ document.glide }}
+            <br>
+            Turn: {{ document.turn }}
+            <br>
+            Fade: {{ document.fade }}
+            <br>
+            Stability: {{ document.stability }}
+            <br>
+            Recommeded Skill Level: {{ document.recommendedskillevel }}
         </div>
     </div>
 </body>
